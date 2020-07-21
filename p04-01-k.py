@@ -4,7 +4,7 @@ date : 2020-07-20
 author : 김용환
 reference : https://programmers.co.kr/learn/courses/30/lessons/42748
 """
-"""
+
 def solution(array, commands):
     answer = []
     
@@ -15,7 +15,7 @@ def solution(array, commands):
         answer.append(part_arr[k-1])
         
     return answer
-"""
+
 """
 다른 사람 풀이
 lambda를 사용하여 x에 commands의 1차원 데이터들을 넣는다.
